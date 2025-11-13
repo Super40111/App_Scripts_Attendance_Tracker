@@ -12,26 +12,26 @@ Due to how Google App Scripts integration works, I cannot provide a xlsx file th
 The script needs to be copied into Google App Scripts by going into Extensions -> App Scripts. Afterwards, within the Google App Scripts tab, you need to make a New Deployment under a web app. If it says that the script needs Authorization, you need to procede with the underlined Advance option as progressing, otherwise Google App Scripts throws an error due to the script being Unauthorized. In addition, each button needs a specific script added to it in order for the button to work. For each button, click the three dots connected to it and choose the 'Assign Script' option. Then copy and paste in the following text based on the position of the button:
 
 L29: GETSMALLESTUNUSEDID <br/>
-L32: CLEANUPINPUTS
-L42: FIXGAPS
-L47: ROWCOUNT
-L50: BINDERCOUNT
-M5: ADDBARCODE
-M9: REMOVEBARCODE
-M13: ENDDAY
-M25: ADDSTUDENT
-M29: GETSMALLESTUNUSEDBARCODE
-M32: BACKUPDATA
-M38: SEARCHSTUDENT
-O5: UPDATENAME
-O11: UPDATEID
-O17: UPDATESUBJECTCOUNT
-O27: ADJUSTSTUDENTSCHEDULE
-O32: REMOVESTUDENT
-O38: SORTSTUDENTS
-Q5: IMPORTBACKUPDATA
-Q8: FIXSTARTUP
-Q30: UPDATEINFOGRAPHIC
+L32: CLEANUPINPUTS <br/>
+L42: FIXGAPS <br/>
+L47: ROWCOUNT <br/>
+L50: BINDERCOUNT <br/>
+M5: ADDBARCODE <br/>
+M9: REMOVEBARCODE <br/>
+M13: ENDDAY <br/>
+M25: ADDSTUDENT <br/>
+M29: GETSMALLESTUNUSEDBARCODE <br/>
+M32: BACKUPDATA <br/>
+M38: SEARCHSTUDENT <br/>
+O5: UPDATENAME <br/>
+O11: UPDATEID <br/>
+O17: UPDATESUBJECTCOUNT <br/>
+O27: ADJUSTSTUDENTSCHEDULE <br/>
+O32: REMOVESTUDENT <br/>
+O38: SORTSTUDENTS <br/>
+Q5: IMPORTBACKUPDATA <br/>
+Q8: FIXSTARTUP <br/>
+Q30: UPDATEINFOGRAPHIC <br/>
 Q38: UPDATEATTENDANCETIME
 
 # Part 3: Using the Spreadsheet
