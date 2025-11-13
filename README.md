@@ -11,7 +11,7 @@ Due to how Google App Scripts integration works, I cannot provide a xlsx file th
 
 The script needs to be copied into Google App Scripts by going into Extensions -> App Scripts. Afterwards, within the Google App Scripts tab, you need to make a New Deployment under a web app. If it says that the script needs Authorization, you need to procede with the underlined Advance option as progressing, otherwise Google App Scripts throws an error due to the script being Unauthorized. In addition, each button needs a specific script added to it in order for the button to work. For each button, click the three dots connected to it and choose the 'Assign Script' option. Then copy and paste in the following text based on the position of the button:
 
-L29: GETSMALLESTUNUSEDID
+L29: GETSMALLESTUNUSEDID <br/>
 L32: CLEANUPINPUTS
 L42: FIXGAPS
 L47: ROWCOUNT
