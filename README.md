@@ -3,7 +3,7 @@ This is a program that utilizes Google App Scripts, Google Sheets, and barcodes 
 
 # Part 1: The Project
 
-This project was made to help a Kumon Center manager track which students were scheduled to attend each day of the week, whenever they are in class on not, and how long they have spent in class. 
+This project was made to help a Kumon Center manager track which students were scheduled to attend each day of the week, whenever they are in class on not, and how long they have spent in class. The script operates by using a barcode scanner attached to a device with the spreadsheet open to scan barcodes attached to the folders of students whenever they check in and check out. While checked in, the background color of the data will change based on how long the student The script was designed based onthe schedule of the Kumon center in mind, which lead to certain design choices in the script. For example,
 
 # Part 2: How to Setup
 
@@ -36,6 +36,6 @@ Q38: UPDATEATTENDANCETIME
 
 # Part 3: Using the Spreadsheet
 
-The spreadsheet was made with the primary way of checking students in and out using a barcode scanner. How barcode scanners work with Google Sheets is that when a connected barcode scanner scans a barcode, it copies the barcode data into the selected cell, the shifts the cell down one cell as if the 'Enter' Key is pressed. When scanning barcodes, the 'C1' cell should be highlighted. When data is entered and the cell shifts to 'C2', the script will reset the cell to 'C1'. There is a small delay to this however, so it is recommended to wait a few seconds before entering data again.
+The spreadsheet was made with the primary way of checking students in and out using a barcode scanner. How barcode scanners work with Google Sheets is that when a connected barcode scanner scans a barcode, it copies the barcode data into the selected cell, the shifts the cell down one cell as if the 'Enter' Key is pressed. When scanning barcodes, the 'C1' cell should be highlighted. When data is entered and the cell shifts to 'C2', the script will reset the cell to 'C1'. There is a small delay to this however, so it is recommended to wait a few seconds before entering data again. The right side of the form is for editing the data via scripts instead of editing it directly. For each command, you enter the required data for the command before hitting the button below to run the associated function. When editing the forms on the side for editing data, any cell with a red background only cares if there is any text present and what exactly is inserted in does not matter. Any cells marked in orange text are not meant to be edited, and will automatically be filled out by running certain commands. These commands are usually right below these orange cells.
 
 
